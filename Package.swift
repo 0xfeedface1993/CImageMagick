@@ -13,8 +13,8 @@ let package = Package(
             name: "CImageMagick",
             pkgConfig: "MagickWand",
             providers: [
-                .apt(["imagemagic"]),
-                .brew(["imagemagic"])
+                .apt(["imagemagick"]),
+                .brew(["imagemagick"])
             ])
     ]
 )
